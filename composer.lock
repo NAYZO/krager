@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f5bf28fac35560dbdb2e597d32df056",
+    "hash": "92caeda99e157a47fc27faf95baebc28",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -862,6 +862,52 @@
             "time": "2014-09-30 13:30:58"
         },
         {
+            "name": "nzo/file-downloader-bundle",
+            "version": "dev-master",
+            "target-dir": "Nzo/FileDownloaderBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/NAYZO/NzoFileDownloaderBundle.git",
+                "reference": "e3c71e0417144d1b4dde7b528480b546b065f0a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/NAYZO/NzoFileDownloaderBundle/zipball/e3c71e0417144d1b4dde7b528480b546b065f0a1",
+                "reference": "e3c71e0417144d1b4dde7b528480b546b065f0a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/framework-bundle": "~2.1"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Nzo\\FileDownloaderBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ala Eddine Khefifi",
+                    "email": "alakhefifi@gmail.com"
+                }
+            ],
+            "description": "The NzoFileDownloaderBundle is a Symfony2 Bundle used to Download all types of files from servers and Web applications safely and with ease",
+            "keywords": [
+                "bundle",
+                "download",
+                "downloader",
+                "file",
+                "symfony",
+                "upload"
+            ],
+            "time": "2014-11-04 10:41:10"
+        },
+        {
             "name": "psr/log",
             "version": "1.0.0",
             "source": {
@@ -1559,7 +1605,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "nzo/file-downloader-bundle": 20
+    },
     "prefer-stable": false,
     "platform": {
         "php": ">=5.3.3"

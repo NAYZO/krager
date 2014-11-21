@@ -24,10 +24,10 @@ class DemoController extends Controller
 
     /**
      * @Route("/hello/{name}", name="_demo_hello")
-     * @Template()
      */
     public function helloAction($name)
     {
+        //return $this->get('nzo_file_downloader')->downloadFile('myfolder/myfile.txt', 'newName.txt');
         return array('name' => $name);
     }
 
