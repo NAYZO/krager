@@ -1,0 +1,4 @@
+nzo_krager:
+    resource: "@NzoKragerBundle/Resources/config/routing.yml"
+    prefix:   /
+
