@@ -4,10 +4,11 @@ namespace Nzo\KragerBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends Controller
+class KragerController extends Controller
 {
     public function indexAction($name)
     {
-        return $this->render('NzoKragerBundle:Default:index.html.twig', array('name' => $name));
+        return $this->render('NzoKragerBundle:Krager:index.html.twig',
+            array('name' => $name));
     }
 }
