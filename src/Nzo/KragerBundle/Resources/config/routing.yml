@@ -1,3 +1,3 @@
 nzo_krager_homepage:
-    path:     /hello/{name}
+    path:     /index
     defaults: { _controller: NzoKragerBundle:Krager:index }

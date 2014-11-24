@@ -6,9 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class KragerController extends Controller
 {
-    public function indexAction($name)
+    public function indexAction()
     {
-        return $this->render('NzoKragerBundle:Krager:index.html.twig',
-            array('name' => $name));
+        return $this->render('NzoKragerBundle:Krager:index.html.twig');
     }
 }
