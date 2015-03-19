@@ -8,6 +8,8 @@ class KragerController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('NzoKragerBundle:Krager:index.html.twig');
+        if (true) {
+            return $this->render('NzoKragerBundle:Krager:index.html.twig');
+        }
     }
 }
